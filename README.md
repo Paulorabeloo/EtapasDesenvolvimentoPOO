@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/deca70d9-684a-4099-aa2e-5b3e0340b005)## Conceito de POO
+## Conceito de POO
 Você já ouviu falar a expressão, linguagem de baixo e de alto nível?
 
 À medida que a tecnologia vem evoluindo, as linguagens de programação também, e é esta transição natural, que determina, quando estamos nos referindo a linguagem de baixo e alto nível.
