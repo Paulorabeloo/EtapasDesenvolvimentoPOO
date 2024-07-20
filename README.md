@@ -1,18 +1,5 @@
-## Getting Started
+### Para ilustrar as etapas de desenvolvimento, orientada a objetos em Java, iremos reproduzir a imagem acima em forma de código, 
+para explicar que primeiro criamos a estrutura correspondente, para assim podermos criá-los com as características e a possibilidade de 
+realização de ações (comportamentos), como se fosse no "mundo real".
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![image](https://github.com/user-attachments/assets/eae099b3-c962-44e3-81a9-89bf688e9345)
