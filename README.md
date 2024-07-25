@@ -581,6 +581,21 @@ Podemos avaliar a importância de compreender os pilares de POO, para ter uma me
 
 Será que todos os sistemas de mensagens, realizam as suas operações de uma mesma maneira? e agora ? este é um trabalho para os pilares Abstração e Polimorfismo.
 
+## Abstração
+Para você ser, é preciso você fazer.
+
+Sabemos que qualquer sistema de mensagens instantâneas realiza as mesmas operações de Enviar e Receber Mensagem, dentre outras operações comuns ou exclusivas de cada aplicativo disponível no mercado.
+
+Mas será que as ações realizadas, contém o mesmo comportamento ? Acreditamos que não.
+
+Já imaginou a Microsoft falar para o Facebook: "Ei, toma meu código do MSN!".
+
+O que vale destacar para compreender, é que todo e qualquer sistema de mensagem precisa sim, no mínimo Enviar e Receber Mensagem, logo, consideramos se firmar um "contrato" para qualquer um que queira se apresentar assim para o mercado.
+
+Em Java, o conceito de abstração é representado pela palavra reservada **abstract**e métodos que NÃO possuem corpo na classe abstrata (pai).
+
+É muito difícil falar de abstração e NÃO mencionar polimorfismo.
+
 
 
 
