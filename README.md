@@ -581,6 +581,39 @@ Podemos avaliar a importância de compreender os pilares de POO, para ter uma me
 
 Será que todos os sistemas de mensagens, realizam as suas operações de uma mesma maneira? e agora ? este é um trabalho para os pilares Abstração e Polimorfismo.
 
+## Abstração
+Para você ser, é preciso você fazer.
+
+Sabemos que qualquer sistema de mensagens instantâneas realiza as mesmas operações de Enviar e Receber Mensagem, dentre outras operações comuns ou exclusivas de cada aplicativo disponível no mercado.
+
+Mas será que as ações realizadas, contém o mesmo comportamento ? Acreditamos que não.
+
+Já imaginou a Microsoft falar para o Facebook: "Ei, toma meu código do MSN!".
+
+O que vale destacar para compreender, é que todo e qualquer sistema de mensagem precisa sim, no mínimo Enviar e Receber Mensagem, logo, consideramos se firmar um "contrato" para qualquer um que queira se apresentar assim para o mercado.
+
+Em Java, o conceito de abstração é representado pela palavra reservada **abstract**e métodos que NÃO possuem corpo na classe abstrata (pai).
+
+É muito difícil falar de abstração e NÃO mencionar polimorfismo.
+
+## Polimorfismo
+Um mesmo comportamento, de várias maneiras.
+
+Podemos observar no contexto de Abstração e Herança, que conseguimos criar uma singularidade estrutural de nossos elementos. Isso quer dizer que, qualquer classe que deseja representar um serviço de mensagens, basta estender a classe 
+ServicoMensagemInstantanea e implementar, os respectivos métodos abstratos. O que vale reforçar aqui é, cada classe terá a mesma ação, executando procedimentos de maneira especializada.
+
+![image](https://github.com/user-attachments/assets/e577b0b6-da33-4840-8a78-37b0f3d2ff42)
+Para concluirmos a compreensão, Polimorfismo permite que as classes mais abstratas, determinem ações uniformes, para que cada classe filha concreta, implemente os comportamentos de forma específica.
+
+### Modificador protected
+Vamos para uma retrospectiva, quanto ao requisito do nosso sistema de mensagens instantâneas, desde a etapa de encapsulamento.
+
+O nosso requisito, solicita que além de Enviar e Receber Mensagens, precisamos validar se o aplicativo está conectado a internet (validarConectadoInternet) e salvar o histórico de cada mensagem (salvarHistoricoMensagem).
+
+Sabemos que cada aplicativo, costuma salvar as mensagens em seus respectivos servidores cloud, mas e quanto validar se está conectado a internet? Não poderia ser um mecanismo comum a todos ? Logo, qualquer classe filha, de ServicoMensagemInstantanea poderia desfrutar através de herança, esta funcionalidade.
+
+Mas fica a reflexão do que já aprendemos sobre visibilidade de recursos: Com o modificador **private**somente a classe conhece a implementação, quanto que o modificador **public**todos passarão a conhecer. Mas gostaríamos que, somente as classes filhas soubessem. Bem, é ai que entra o modificador protected.
+
 
 
 
