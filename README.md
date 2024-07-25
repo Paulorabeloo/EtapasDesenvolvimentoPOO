@@ -1,4 +1,4 @@
-## Conceito de POO
+![image](https://github.com/user-attachments/assets/a7732602-d60c-4980-ac5e-05219c061a1d)## Conceito de POO
 Você já ouviu falar a expressão, linguagem de baixo e de alto nível?
 
 À medida que a tecnologia vem evoluindo, as linguagens de programação também, e é esta transição natural, que determina, quando estamos nos referindo a linguagem de baixo e alto nível.
@@ -613,6 +613,55 @@ O nosso requisito, solicita que além de Enviar e Receber Mensagens, precisamos 
 Sabemos que cada aplicativo, costuma salvar as mensagens em seus respectivos servidores cloud, mas e quanto validar se está conectado a internet? Não poderia ser um mecanismo comum a todos ? Logo, qualquer classe filha, de ServicoMensagemInstantanea poderia desfrutar através de herança, esta funcionalidade.
 
 Mas fica a reflexão do que já aprendemos sobre visibilidade de recursos: Com o modificador **private**somente a classe conhece a implementação, quanto que o modificador **public**todos passarão a conhecer. Mas gostaríamos que, somente as classes filhas soubessem. Bem, é ai que entra o modificador protected.
+
+## Interface
+Como vimos anteriormente, Herança é um dos pilares de POO, mas uma curiosidade que se deve ser esclarecida, na linguagem Java, é que a mesma não permite o que conhecemos como Herança Múltipla.
+
+A medida que vão surgindo novas necessidades, novos equipamentos (objetos), que nascem para atender as expectativas de oferecer ferramentas com finalidades bem específicas, como por exemplo: Impressoras, Digitalizadoras, Copiadoras e etc.
+
+Observem que não há uma especificação de marca, modelo e ou capacidades de execução das classes citadas acima, isto é o que consideramos o nível mais abstrato da orientação a objetos, que denominamos como interfaces.
+
+Ilustração de interfaces dos equipamentos citados acima:
+
+![image](https://github.com/user-attachments/assets/18e0bbb2-ab30-49df-9b4b-3ee5e47b3632)
+
+Representação de objetos reais com base nas interfaces citadas acima:
+
+![image](https://github.com/user-attachments/assets/51ca2d7d-26ca-45c6-9bb7-caf33a4eeb90)
+
+Então, o que você está dizendo é que interfaces, é o mesmo que classes? Um molde para representação dos objetos reais ?
+
+Este é um dos maiores questionamentos dos desenvolvedores, no que se refere a modelo de classes da aplicação.
+
+Como citado acima, Java não permite herança múltipla, logo, vamos imaginar que, recebemos o desafio de projetar uma nova classe, para criar objetos que representam as três características citadas acima e que iremos denominar de EquipamentoMultifunional.
+
+![image](https://github.com/user-attachments/assets/44726974-3d0f-4474-9e5e-f1816b02db9b)
+
+Para uma melhor compreensão, vamos analisar os diagramas de classes abaixo, comparando o conceito de herança entre, classes e interfaces.
+
+Cenário 1
+
+![image](https://github.com/user-attachments/assets/f4280979-af9f-4289-9981-a83c6841274b)
+Exemplo de aplicação de Herança entre classes
+
+
+Cenário 2
+
+![image](https://github.com/user-attachments/assets/17393c3e-49c6-4625-bbcf-46542e04ff20)
+Ilustração do uso de interfaces para aplicar Herança Múltipla
+
+Antes de iniciarmos a representação via código, devemos compreender que, assim como em classes e métodos abstratos, quando herdamos de uma interface, precisamos implementar todos os seus métodos, pois os mesmos são implicitamente 
+public abstract.
+
+E para encerrar, uma das mais importantes ilustrações, quanto ao uso de interfaces para, desenvolvimento de componentes revolucionários, é apresentado em 2007 por nada mais nada menos que Steve Jobs ao lançar o primeiro iPhone da história.
+
+![image](https://github.com/user-attachments/assets/a52e443a-94a5-4066-a882-c8d81b325996)
+
+Um único equipamento, que pode ser considerado tanto como um: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
+
+
+
+
 
 
 
