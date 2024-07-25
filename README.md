@@ -556,6 +556,35 @@ Mesmo ainda sendo necessária algumas etapas, nos processos citados, não é um 
 
 Quanto ao MSN Messenger, para nós, só é relevante saber que podemos e como devemos enviar e receber a mensagem, logo, as demais funcionalidades poderão ser consideradas privadas (private). E é ai que se caracteriza a necessidade do pilar de Encapsulamento. O que esconder ?
 
+![image](https://github.com/user-attachments/assets/81fe3635-55f0-4859-97ca-ce5bd3ec295c)
+
+
+## Herança
+Nem tudo se copia, às vezes se herda.
+
+Já imaginou, você ter sido classificado para a vaga de emprego de seus sonhos e como desafio, seria justamente você criar um diagrama de classes e em seguida os respectivos arquivos .java, que apresentasse os fundamentos de POO, com base no contexto de vários aplicativos de mensagens instantâneas? Sorte sua que você está nos acompanhando, em nossa jornada! 😜
+
+![image](https://github.com/user-attachments/assets/1f4f0fe6-5af7-401c-8f5d-7e195a03fc36)
+
+Com base na nossa classe MsnMessenger, você já poderia dar os primeiros passos para se dar bem no processo seletivo, simplemente, copiar e colar a estrutura, para as novas classes FacebookMessenger, Telegram.
+
+![image](https://github.com/user-attachments/assets/84516159-1913-4c33-b7d5-947abc4f71dc)
+Lamentamos dizer, mas esta não seria a melhor alternativa para a proposta citada acima.
+
+Além de uma compreensão do desafio, é necessário que, tenhamos domínio dos pilares de POO e aplicá-los em situações iguais a esta.
+
+NOTE: Todas as três classes, possuem a mesma estrutura comportamental e diante deste contexto, se encaixa perfeitamente o segundo pilar da POO, a Herança.
+
+![image](https://github.com/user-attachments/assets/1a54e289-24e5-4287-a839-96e20edf58d1)
+
+Podemos avaliar a importância de compreender os pilares de POO, para ter uma melhor implementação, reaproveitamento e reutilização de código, em qualquer contexto das nossas aplicações, mas não para por ai.
+
+Será que todos os sistemas de mensagens, realizam as suas operações de uma mesma maneira? e agora ? este é um trabalho para os pilares Abstração e Polimorfismo.
+
+
+
+
+
 
 
 
